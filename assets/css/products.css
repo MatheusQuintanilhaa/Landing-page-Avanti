@@ -1,3 +1,8 @@
+.products-wrapper {
+  margin-left: 316px;
+  max-width: 1288.4px;
+}
+
 .product-container {
   display: flex;
   flex-direction: column;
@@ -9,9 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: calc(100% - 631px);
-  max-width: 1200px;
-  margin-left: 316px;
+  width: 100%;
   position: relative;
 }
 
@@ -32,11 +35,10 @@
 
 .mySwiper {
   width: 100%;
-  max-width: 1200px;
-  margin-left: 316px;
   display: flex;
   justify-content: flex-start;
   margin-top: 19px;
+  max-width: 100%;
 }
 
 .swiper-wrapper {
@@ -60,7 +62,11 @@
   position: relative;
 }
 
-.product-card img {
+.product-card-image {
+  position: relative;
+}
+
+.product-card-image img {
   width: 100%;
   border-radius: 8px;
 }
@@ -73,7 +79,7 @@
   text-align: left;
 }
 
-.product-card-price {
+.price-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -133,10 +139,6 @@
   margin-top: 16px;
   cursor: pointer;
   border: none;
-}
-
-.product-card-image {
-  position: relative;
 }
 
 .new-badge {

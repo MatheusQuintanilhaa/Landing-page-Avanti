@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 16,
+    slidesPerView: 5,
+    spaceBetween: 8,
     loop: true,
     navigation: {
       nextEl: ".swiper-button-next",
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     breakpoints: {
       768: { slidesPerView: 2 },
-      1024: { slidesPerView: 3 },
+      1024: { slidesPerView: 4 },
     },
   });
 });
