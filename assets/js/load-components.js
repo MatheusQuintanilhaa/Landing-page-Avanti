@@ -12,5 +12,5 @@ window.onload = function () {
   loadComponent("../../components/header.html", "header-container");
   loadComponent("../../components/banner.html", "banner-container");
   loadComponent("../../components/footer.html", "footer-container");
-  loadComponent("../../components/product-card.html", "product-container");
+  loadComponent("../../components/product-card.html", "products-container");
 };
