@@ -1,0 +1,27 @@
+.productFeaturedSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-container {
+  width: 100%;
+  max-width: 1930px;
+  margin: 0 auto;
+}
+
+.product-feature-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-feature-image img {
+  width: 100%;
+  max-width: 1930px;
+  height: 819px;
+  object-fit: cover;
+  margin-top: 55px;
+  display: block;
+}

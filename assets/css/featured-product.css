@@ -1,0 +1,27 @@
+.featured-product {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.featured-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.featured-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.featured-image img {
+  width: 1177px;
+  height: 747px;
+  margin-top: 96px;
+}
