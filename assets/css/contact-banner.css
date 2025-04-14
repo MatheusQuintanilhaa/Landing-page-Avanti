@@ -1,0 +1,72 @@
+.contact-banner img {
+  width: 1920px;
+  height: 660px;
+  margin-top: 120px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 61px;
+}
+
+.newsletter h3 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: normal;
+}
+
+.newsletter h3 span {
+  color: #005cff;
+}
+
+.send-info {
+  background-color: #dedede;
+  width: 1260px;
+  height: 176px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"] {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  width: 220px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #3a3a3a;
+}
+
+.checkbox-container span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.form-container button {
+  padding: 12px 24px;
+  background-color: #005cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}

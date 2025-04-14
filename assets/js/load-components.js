@@ -40,4 +40,9 @@ window.onload = function () {
     ".products-container-wrapper",
     initializeSwiper
   );
+
+  loadComponent(
+    "../../components/contact-banner.html",
+    ".contact-banner-container"
+  );
 };
