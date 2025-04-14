@@ -1,0 +1,91 @@
+.footer-section {
+  width: 100%;
+  margin-top: 40px;
+  background-color: #f2f2f2;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.bg-footer {
+  width: 100%;
+  max-width: 1920px;
+  height: 386px;
+  object-fit: cover;
+  display: block;
+}
+
+.footer-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1260px;
+  padding: 40px 20px;
+  margin-left: 80px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.logo-links {
+  display: flex;
+  align-items: flex-start;
+  gap: 142px;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  width: 194px;
+  height: 93px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.footer-links div h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.footer-links div h5 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 2px 0;
+}
+
+.card-mark {
+  margin: 64px auto;
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  transform: translateX(-84px);
+}
+
+.footer-bottom {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #333;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+
+.brands {
+  max-width: 300px;
+  width: 100%;
+}
