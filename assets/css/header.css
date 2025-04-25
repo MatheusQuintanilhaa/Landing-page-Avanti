@@ -125,12 +125,17 @@ nav {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 70px;
   align-items: center;
 }
 
-.menu li {
+/* .menu li {
   display: inline;
+} */
+
+.categories {
+  display: flex;
+  gap: 45px;
 }
 
 .categories-btn {
@@ -161,4 +166,15 @@ nav {
 
 .menu a:hover {
   color: #005cff;
+}
+
+.menu-departaments {
+  position: fixed;
+  top: 50px;
+  left: 10px;
+  background: #ed4341;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }

@@ -1,0 +1,67 @@
+.categories-menu {
+  position: absolute; /* Ou fixed, dependendo do layout desejado */
+  top: 100%; /* Posiciona abaixo do header */
+  left: 0;
+  width: 100%;
+  background-color: yellow; /* Cor de fundo do menu */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+  display: none; /* Inicialmente oculto */
+}
+
+.hidden {
+  display: none;
+}
+
+.section {
+  height: 100vh;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.categories-menu.active {
+  display: block; /* Exibe o menu quando ativo */
+}
+
+.categories-menu-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.categories-menu-left {
+  flex: 2; /* Ocupa 2/3 do espaço */
+}
+
+.categories-menu-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.categories-menu-row span {
+  margin-right: 15px;
+}
+
+.arrow-icon {
+  width: 10px; /* Ajuste o tamanho da seta */
+}
+
+.categories-menu-right {
+  flex: 1; /* Ocupa 1/3 do espaço */
+  text-align: center;
+}
+
+.categories-menu-promo h3 {
+  margin-bottom: 20px;
+}
+
+.categories-menu-view-all-btn {
+  background-color: #007bff; /* Cor do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
